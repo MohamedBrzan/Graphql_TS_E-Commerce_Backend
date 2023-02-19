@@ -1,0 +1,9 @@
+{
+  "duplicate": "Oops! Something Went Wrong, This {{value}} Is Already In Use",
+  "empty": "Oops! Something Went Wrong, {{value}} Is Empty!",
+  "invalid": "Oops! Something Went Wrong, Please Enter A Valid {{value}}",
+  "not_found": "Oops! {{value}} Not Found",
+  "deleted": "{{value}} Deleted Successfully",
+  "error": "Oops! Something Went Wrong, {{value}}!",
+  "followed":"You Followed {{value}} Successfully"
+}

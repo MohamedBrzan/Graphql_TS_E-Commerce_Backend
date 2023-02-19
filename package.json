@@ -1,0 +1,42 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "This Is Typescript Website with Graphql & Apollo server",
+  "main": "server.ts",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "npm run compile && nodemon ./server.ts",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [
+    "Graphql",
+    "Typescript"
+  ],
+  "author": "Mohamed Mahmoud Brzan",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "@graphql-tools/schema": "^9.0.13",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "i18next": "^22.4.10",
+    "i18next-fs-backend": "^2.1.1",
+    "i18next-http-middleware": "^3.2.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
+}
